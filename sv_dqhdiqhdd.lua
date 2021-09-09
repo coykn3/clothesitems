@@ -1,0 +1,8 @@
+ESX.RegisterUsableItem('LsCustoms', function(source)
+    TriggerClientEvent('lsmecano:habits', source)
+end)
+RegisterServerEvent('lsmecano:habitrem')
+AddEventHandler('lsmecano:habitrem', function()
+    local xPlayer = ESX.GetPlayerFromId(source)
+    xPlayer.removeInventoryItem('LsCustoms', 1)
+end)
