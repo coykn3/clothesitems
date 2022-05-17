@@ -6,4 +6,4 @@ client_scripts {
 server_scripts {
 	'sv.lua',	
 }
---соуки3 | https://discord.gg/cqK4GC7aFa
+
